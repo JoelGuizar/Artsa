@@ -1,0 +1,190 @@
+/* body {
+  background-color: black;
+} */
+
+*{
+  border-radius: 10px;
+}
+
+.container {
+  margin-top: 20px;
+  height: auto;
+}
+
+/*Canvas*/
+.col-sm-8 {
+  border: 6px solid;
+  border-color: #07ffa4;
+}
+
+/*Notes*/
+.col-sm-4 {
+  border: 6px solid;
+  border-color: #07eeff;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  padding-top: 5px;
+  text-decoration-style: none;
+  padding-left: 6px;
+  padding-right: 2px;
+}
+
+a {
+  color: black;
+}
+
+.btn-default:hover, #save:hover, #leave:hover {
+  background-color: pink;
+
+}
+
+#leave{
+  border-radius: 15px;
+  background-color: pink;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+/**
+ * Fix user-agent
+ */
+* {
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Canvas
+ */
+ .row {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     height: auto;
+     background-color: white;
+ }
+.whiteboard {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+#htmlCanvas {
+    width: 725px;
+    height: 500px;
+    border: 1px #f2f2f2 solid;
+}
+.colors {
+  position: fixed;
+}
+#eraser {
+  background: #ccc url(eraser.png);
+  width: 48px;
+  height: 41px;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+
+/* Custom brush */
+canvas {
+  cursor: crosshair;
+}
+
+@media screen and (min-width: 1200px){
+  #htmlCanvas {
+    width: 725px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1000px) {
+  #htmlCanvas {
+    width: 590px;
+  }
+}
+
+@media screen and (max-width: 999px) and (min-width: 992px) {
+  #htmlCanvas {
+    width: 585px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #htmlCanvas {
+    width: 443px;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  .col-sm-8 {
+    width: 100%
+  }
+  #htmlCanvas {
+    width: 100%;
+  }
+  .col-sm-4 {
+    width: 100%;
+    height: 300px;
+  }
+  textarea {
+    width: 100%;
+    height: 175px;
+  }
+}
+
+#save{
+  background-color: #ffe607;
+  border-style: none;
+  color: white;
+  border-radius: 15px;
+  font-weight: bold;
+  float: right;
+}
+
+#notes{
+  color: red;
+  font-weight: bold;
+  font-style: "Rock Salt";
+  border: 9px red solid;
+}
+
+#clearCanvas, #saveCanvas{
+  padding: 4px;
+  font: sans-serif;
+  background-color: white;
+  color: grey;
+  border-color: #f2f2f2;
+  width: 52px;
+  font-weight: bolder;
+  font-size: 10px;
+}
+
+#saveDate{
+  text-align: center;
+  color: grey;
+}
+
+*:focus{
+  outline:none;
+}
+
+#leave:hover{
+  background-color:
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+body {
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  background-image: url("../canvas/projectimg.jpg");
+  background-repeat:no-repeat;
+  background-position: fixed;
+  background-size: 360px 360px;
+  background-position: right bottom;
+}
+
+input, button {
+  outline: none;
+  text-decoration-style: none;
+  background-color: transparent;
+  border: grey 0px solid;
+  text-align: center;
+}
+
+input:hover{
+  background-color: #e2e2e2;
+  color: white;
+}
+
+button:hover{
+  background-color: #e2e2e2;
+  color: white;
+}
+
+button {
+  color: #ff8716;
+}
+
+
+
+h1 {
+  font-weight: 800;
+  font-size: 140px;
+  font-weight: bold;
+  font-family: 'Sacramento', cursive;
+  color: #2c2f87;
+}
+
+h2 {
+  font-size: 52px;
+  font-family: "Reenie Beanie";
+  color: black;
+  font-weight: lighter;
+}
+
+.container {
+  text-align: center;
+}
+
+.row {
+  position: relative;
+}
+
+.col-sm-8 {
+  margin-top: 20px;
+  padding-top: 15px;
+  top: 50%;
+  border: #2c2f87 1px solid;
+  background-color: transparent;
+  height: auto;
+  min-height: 400px;
+}
+
+.link-div {
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+
+/* Change bootstrap well style */
+.well {
+  margin-bottom: 0;
+  background-color: transparent;
+  font-family: "Reenie Beanie";
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.well:hover{
+  border: red 1px solid;
+}
